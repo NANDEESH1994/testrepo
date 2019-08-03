@@ -6,15 +6,23 @@ public class Test
  	
 	
 	
- for (int a=1 ; a<7 ; ++a)
+ for (int a=1 ; a<5 ; a++)
  {
 	 
-	 for (int b=1 ; b<a ; ++b)
+	 if (a==1||a==4)
 	 {
-		 System.out.print(b + " ");
+	 for (int b=1 ; b<5 ; ++b)
+	 {
+		 System.out.print("$" + " ");
 		 
 	 }
 	 System.out.println();
+	 }
+	 else 
+	 {	 System.out.print("$" + "    "); 
+	 
+	 System.out.println(" " + "$");
+	 }
  }
 	 
 	}
